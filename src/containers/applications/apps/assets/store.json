@@ -95,5 +95,22 @@
       "desc": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
       "feat": "free information\nadd information\nedit information"
     }
+  },
+  {
+  "name": "Windows XP", // unique name (check if it has been used already in the file)
+  "icon": "https://findicons.com/files/icons/587/windows_flag/256/xp_flag.png", // logo image, preferrably 1:1 and less than 128px of width
+  "type": "app", // game or app
+  "data": {
+    "type": "IFrame", // type currently supports IFrame only
+    "url": "https://winxp.vercel.app", // url of the app and make sure they accept Iframe
+    "gallery": [ // three or more images for gallery view in store app
+      "https://www.minecraft.net/content/dam/games/minecraft/key-art/CavesandCliffsPt1-dotNET-HomepagePromo-600x360.png",
+      "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
+      "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
+    ],
+    "desc": "Windows XP is a version of Windows released on October 25, 2001.", // description for store app
+    "feat": "Luna \n Nostalgia \n Start menu", // features for store app
+    "invert": false, // when true it forces dark theme for game/app window, default is false.
   }
+}
 ]
